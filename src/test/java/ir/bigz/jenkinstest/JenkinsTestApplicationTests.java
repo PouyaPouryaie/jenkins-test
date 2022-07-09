@@ -16,6 +16,7 @@ class JenkinsTestApplicationTests {
     @Test
     void contextLoads() {
         logger.info("Test case executing ...");
+        logger.info("Test case run for first test ...");
         assertTrue(true);
     }
 
